@@ -21,6 +21,10 @@ client.on('message', message => {
      else if (message.body.toLowerCase().includes('website')) {
         message.reply('What kind of website do you need');
     }
+
+    else if (message.body.toLowerCase().includes('love')) {
+        message.reply('Sorry, no feelings');
+    }
 });
 
 client.initialize();
