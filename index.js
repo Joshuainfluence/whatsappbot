@@ -25,6 +25,9 @@ client.on('message', message => {
     else if (message.body.toLowerCase().includes('love')) {
         message.reply('Sorry, no feelings');
     }
+     else if (message.body.toLowerCase().includes('woman')) {
+        message.reply('Sorry, no feelings');
+    }
 });
 
 client.initialize();
