@@ -28,6 +28,10 @@ client.on('message', message => {
      else if (message.body.toLowerCase().includes('woman')) {
         message.reply('Sorry, no feelings');
     }
+
+     else if (message.body.toLowerCase().includes('girl')) {
+        message.reply('Sorry, no feelings');
+    }
 });
 
 client.initialize();
