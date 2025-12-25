@@ -32,6 +32,10 @@ client.on('message', message => {
      else if (message.body.toLowerCase().includes('girl')) {
         message.reply('Sorry, no feelings');
     }
+
+    else if (message.body.toLowerCase().includes('ass')) {
+        message.reply('Forbidden word found');
+    }
 });
 
 client.initialize();
