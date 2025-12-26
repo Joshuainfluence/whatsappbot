@@ -36,6 +36,10 @@ client.on('message', message => {
     else if (message.body.toLowerCase().includes('ass')) {
         message.reply('Forbidden word found');
     }
+
+        else if (message.body.toLowerCase().includes('fuck')) {
+        message.reply('Forbidden word found');
+    }
 });
 
 client.initialize();
